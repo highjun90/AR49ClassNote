@@ -1,0 +1,40 @@
+ - 동적라이브러리 에서 헤더만 include 하고 lib를 pragma 하면 암시적링크다. 만약 pragma ilb 코드 부분만 빼고 include 헤더파일만 있으면 오류난다.
+   명시적링크는 헤더파일을 포함하고 기타 여러 함수와 함수포인터를 써야한다. (이때는 물론 pagma 부분빼야하고 오류도 안남)
+ - LoadLibrarr("")로 dll 불러오고, GetprocAddress로 함수포인터로 dll 내의 해당 함수명의 주소를 들고있고, freelibrary 함수로 함수포인터 해제한다.총3단계
+ 
+  -svn 아이디비번
+ ID  Assort49  
+ PW djthxmfkr49th
+ 
+ qnap 비번 어소트락49th
+      아이디 ?
+
+ - 프로젝트 설정에서 구성속성 -> 일반에서 release 일때는 그대로 두고, debug일때는 대상이름에 원래 매크로 뒤에 _d를 붙여준다.
+   client, Engine 프로젝트 모두에 적용한다. 
+ 
+ - GetMessage를 PeekMessage로 바꿨음
+ - 엔진클래스는 싱글톤으로 만들것이다. 그 클래스 이름은 CEngine
+
+ ?? atexit => 프로세스가 종료될때 메인함수에서 호출되는것?
+
+ - define()괄호 다시보기
+
+
+ - 모든 구성으로 빌드전이벤트 bat 설정
+
+ - 오늘 구현단계 - 윈도우 창 만들고 device 만듬. Device는 GPU제어. 
+
+ - FAILED 매크로는 윈도우가 제공하는 기본 매크로. 
+   FAILED 매크로에서 사용하는 HRESULT은 무슨뜻?
+    - H는 핸들임. 과거엔 오류정보를 포함하는 객체를 가리키는 자료형이었으나 후대에는 단순한 숫자를 가리키게 변경됨 허나 이름은 안바뀐것
+ - direct9처럼 별도로 라이브러리 설치안해도 visual studio에 자동으로 direct11이 설치되어있음
+
+ - global은 배포용헤더이다. 글로벌헤더에 표준라이브러리 뿐만아니라 직접만든헤더도 같이 넣어두고, 클라이언트는 그 글로벌헤더를 include하면 엔진의 모든 기능에 접근할수있게했다.
+
+  - include꺽쇠로 d3d11 관련 헤더와 라이브러리들을 사용할수 있음. 미리 다 경로에 설치되어있기 때문
+  - using namespace DirectX 코드로 매번 번거롭게 경로 안쓰게 네임스페이스 해제함
+
+ - Device 객체 안에 device와 context 가리키는 포인터를 갖게한다.
+   Device 포인터는 주로 메모리 관리하는 기능이 있고 context는 렌더링명령을 주로하는 객체를 가리킴
+
+
