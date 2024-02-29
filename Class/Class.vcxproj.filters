@@ -19,6 +19,9 @@
     <Filter Include="24\2402">
       <UniqueIdentifier>{32dded3e-31a9-48f7-b67c-9d503d1f9058}</UniqueIdentifier>
     </Filter>
+    <Filter Include="24\2403">
+      <UniqueIdentifier>{19f21b2c-643e-4cec-8128-ca4e61057c37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="28.txt">
@@ -175,6 +178,9 @@
       <Filter>24\2402</Filter>
     </Text>
     <Text Include="240227.txt">
+      <Filter>24\2402</Filter>
+    </Text>
+    <Text Include="240228.txt">
       <Filter>24\2402</Filter>
     </Text>
   </ItemGroup>
