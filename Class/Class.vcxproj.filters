@@ -4,12 +4,6 @@
     <Filter Include="23">
       <UniqueIdentifier>{1cd149d1-b4de-41c9-84c2-05acf09b6ec4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="23\12">
-      <UniqueIdentifier>{dded7c33-f6e9-4632-aefa-341116b2b5c6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="23\11">
-      <UniqueIdentifier>{e2ef74b3-000f-4e02-b539-8d73c3d8ef16}</UniqueIdentifier>
-    </Filter>
     <Filter Include="24">
       <UniqueIdentifier>{5ec53c0f-7183-4e90-83dd-115491325630}</UniqueIdentifier>
     </Filter>
@@ -22,61 +16,67 @@
     <Filter Include="24\2403">
       <UniqueIdentifier>{19f21b2c-643e-4cec-8128-ca4e61057c37}</UniqueIdentifier>
     </Filter>
+    <Filter Include="23\2311">
+      <UniqueIdentifier>{e2ef74b3-000f-4e02-b539-8d73c3d8ef16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="23\2312">
+      <UniqueIdentifier>{dded7c33-f6e9-4632-aefa-341116b2b5c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="231128.txt">
-      <Filter>23\11</Filter>
+      <Filter>23\2311</Filter>
     </Text>
     <Text Include="231129.txt">
-      <Filter>23\11</Filter>
+      <Filter>23\2311</Filter>
     </Text>
     <Text Include="231130.txt">
-      <Filter>23\11</Filter>
+      <Filter>23\2311</Filter>
     </Text>
     <Text Include="231201.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231206.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231207.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231208.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231214.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231215.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231218.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231219.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231220.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231221.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231222.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231226.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231227.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231228.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="231229.txt">
-      <Filter>23\12</Filter>
+      <Filter>23\2312</Filter>
     </Text>
     <Text Include="240103.txt">
       <Filter>24\2401</Filter>
