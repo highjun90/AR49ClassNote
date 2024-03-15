@@ -186,6 +186,7 @@
     <Text Include="240219.txt" />
     <Text Include="240312.txt" />
     <Text Include="240313.txt" />
+    <Text Include="240314.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
