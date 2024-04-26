@@ -1,0 +1,15 @@
+AR49 수업관련 ID, PW
+
+1. TortoiseSVN
+  - URL of repository : svn://assortrock.synology.me/AR49
+  - ID : Assort49
+  - PW : djthxmfkr49th (어소트락49th)
+
+2. QNAP (AssortRockNas)
+  - ID : AR49
+  - PW : djthxmfkr49th (어소트락49th)
+  - 주소 : http://assortrock.myqnapcloud.com:5002/cgi-bin/
+
+3. Discord
+  - 서버주소 : https://discord.gg/nES3SGYW
+    이게 시간 지나면 서버코드가 바뀌어서 어차피 못들어감. 다시 서버코드 알려주라고 해야함.
