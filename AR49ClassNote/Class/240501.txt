@@ -37,7 +37,7 @@
 
 
 
- - skybox.fx, PS_SkyBox
+ - skybox.fx, PS_SkyBox()
   - if문이 뭐이리 많아?
 
    -  if( 0 == g_int_0)                                         => 스카이박스가 스피어타입이고
