@@ -249,5 +249,8 @@
     <Text Include="240509.txt">
       <Filter>24\2405</Filter>
     </Text>
+    <Text Include="240510.txt">
+      <Filter>24\2405</Filter>
+    </Text>
   </ItemGroup>
 </Project>
